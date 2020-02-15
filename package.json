@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node serveur/index.js",
     "build": "webpack --mode production",
-    "test": "echo \"Error: pas de tests pour le moment\" && exit 1"
+    "test": "echo \"Error: pas de tests pour le moment\" && exit 1",
+    "dev": "webpack --mode development && node server/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,12 +25,14 @@
     "@babel/preset-react": "^7.8.3",
     "babel-loader": "^8.0.6",
     "express": "^4.17.1",
+    "file-loader": "^5.0.2",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   },
   "devDependencies": {
-    "html-webpack-plugin": "^3.2.0"
+    "html-webpack-plugin": "^4.0.0-beta.11"
   }
 }
