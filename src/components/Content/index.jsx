@@ -1,8 +1,8 @@
-// Import de l'image
-import LOGO from '../../static/webpack.png';
+import React from 'react'
+import LOGO from '../../static/webpack.png';// Import de l'image
 
-// Utilisation
-
-function Index() {
-    return <img src={LOGO} alt="Logo" />
+export class  Content extends React.Component {
+    render() {
+        return <img src={LOGO} alt="Logo" />
+    }
 }
