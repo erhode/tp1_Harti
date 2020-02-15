@@ -1,0 +1,35 @@
+{
+  "name": "tp1_harti",
+  "version": "1.0.0",
+  "description": "tp1_react",
+  "main": "index.js",
+  "scripts": {
+    "start": "node serveur/index.js",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: pas de tests pour le moment\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erhode/tp1_react.git"
+  },
+  "author": "harti_karim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erhode/tp1_react/issues"
+  },
+  "homepage": "https://github.com/erhode/tp1_react#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0"
+  }
+}
