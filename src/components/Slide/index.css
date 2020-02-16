@@ -1,0 +1,8 @@
+#slide {
+    height: 300px;
+    margin: auto;
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: 2px;
+    background: blue;
+}

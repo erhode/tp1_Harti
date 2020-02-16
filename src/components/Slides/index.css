@@ -1,0 +1,9 @@
+#slides{
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 2px;
+    background: antiquewhite;
+}
