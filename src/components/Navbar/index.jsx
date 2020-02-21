@@ -28,9 +28,7 @@ export class Navbar extends React.Component {
         this.props.onClick(i);
     }
 
-
     render() {
-
         const dropDownItems = []
 
         for (const [index, value] of this.props.slideDatas.entries()) {
